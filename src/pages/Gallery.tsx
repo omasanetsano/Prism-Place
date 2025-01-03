@@ -3,27 +3,27 @@ import { X } from 'lucide-react';
 
 const galleryImages = {
   exterior: [
-    '/indoor_1.jpg',
-    '/indoor_4.jpg',
-    '/indoor_2.jpg',
-    '/indoor_3.jpg',
+    '/indoor-1.jpg',
+    '/indoor-4.jpg',
+    '/indoor-2.jpg',
+    '/indoor-3.jpg',
   ],
   rooms: [
-    '/room_1.jpg',
-    '/room_3.jpg',
-    '/room_2.jpg',
-    '/room_4.jpg',
+    '/room-1.jpg',
+    '/room-3.jpg',
+    '/room-2.jpg',
+    '/room-4.jpg',
   ],
   bushBar: [
-    '/bushbar_2.jpg',
+    '/bushbar-2.jpg',
     '/bushbar-1.jpg',
-    '/bushbar_3.jpg',
+    './bushbar-3.jpg',
     ],
   eventHall: [
-    '/hall_3.jpg',
-    '/hall_2.jpg',
-    '/hall_1.jpg',
-    '/hall_4.jpg',
+    '/hall-3.jpg',
+    '/hall-2.jpg',
+    '/hall-1.jpg',
+    '/hall-4.jpg',
   ],
 };
 
