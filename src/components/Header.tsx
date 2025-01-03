@@ -19,7 +19,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-2">
             
-            <img src="/new-logo.svg" alt="Prism Place Logo" className="h-10 w-26" />
+            <img src="/images/new-logo.svg" alt="Prism Place Logo" className="h-10 w-26" />
             
           </Link>
 
