@@ -6,7 +6,7 @@ const services = [
   { icon: Wifi, title: '24/7 Internet Service', description: 'High-speed internet access throughout the property' },
   { icon: Shield, title: '24hrs Security', description: 'Round-the-clock security for your peace of mind' },
   { icon: Shirt, title: 'Laundry Service', description: 'Professional laundry and dry cleaning services' },
-  { icon: UtensilsCrossed, title: 'Restaurant', description: 'Exquisite dining experience ' },
+  { icon: UtensilsCrossed, title: 'Restaurant', description: 'Exquisite dining experience' },
   { icon: Power, title: '24hr Power Supply', description: 'Uninterrupted power supply for your comfort' },
 ];
 
@@ -15,7 +15,7 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen">
-        <div className="absolute inset-0 bg-[url('/Background-image.svg')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-[url('/images/Background-image.svg')] bg-cover bg-center">
           <div className="absolute inset-0 bg-black/50" />
         </div>
         <div className="relative h-full flex items-center justify-center text-white">
@@ -50,7 +50,7 @@ const Home = () => {
             </div>
             <div className="rounded-lg overflow-hidden">
               <img
-                src="/building_prism.png"
+                src="/images/building-prism.png"
                 alt="Hotel Building"
                 className="w-full h-[400px] object-cover"
               />

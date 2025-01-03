@@ -1,29 +1,30 @@
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
 
+// Define the image paths relative to the public folder
 const galleryImages = {
   exterior: [
-    '/indoor-1.jpg',
-    '/indoor-4.jpg',
-    '/indoor-2.jpg',
-    '/indoor-3.jpg',
+    '/images/indoor-1.jpg',
+    '/images/indoor-4.jpg',
+    '/images/indoor-2.jpg',
+    '/images/indoor-3.jpg',
   ],
   rooms: [
-    '/room-1.jpg',
-    '/room-3.jpg',
-    '/room-2.jpg',
-    '/room-4.jpg',
+    '/images/room-1.jpg',
+    '/images/room-3.jpg',
+    '/images/room-2.jpg',
+    '/images/room-4.jpg',
   ],
   bushBar: [
-    '/bushbar-2.jpg',
-    '/bushbar-1.jpg',
-    './bushbar-3.jpg',
-    ],
+    '/images/bushbar-2.jpg',
+    '/images/bushbar-1.jpg',
+    '/images/bushbar-3.jpg',
+  ],
   eventHall: [
-    '/hall-3.jpg',
-    '/hall-2.jpg',
-    '/hall-1.jpg',
-    '/hall-4.jpg',
+    '/images/hall-3.jpg',
+    '/images/hall-2.jpg',
+    '/images/hall-1.jpg',
+    '/images/hall-4.jpg',
   ],
 };
 
@@ -38,7 +39,8 @@ const Gallery = () => {
         {/* Sections */}
         {Object.entries(galleryImages).map(([section, images]) => (
           <div key={section} className="mb-16">
-            <h2 className="text-2xl font-serif capitalize mb-8">{section === 'bushBar' ? 'Bush Bar' : section === 'eventHall' ? 'Event Hall' : section}
+            <h2 className="text-2xl font-serif capitalize mb-8">
+              {section === 'bushBar' ? 'Bush Bar' : section === 'eventHall' ? 'Event Hall' : section}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               {images.map((image, index) => (
