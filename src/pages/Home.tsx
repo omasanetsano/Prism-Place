@@ -15,7 +15,7 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen">
-        <div className="absolute inset-0 bg-[url('/images/Background-image.svg')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-[url('/Background-image.svg')] bg-cover bg-center">
           <div className="absolute inset-0 bg-black/50" />
         </div>
         <div className="relative h-full flex items-center justify-center text-white">
@@ -50,7 +50,7 @@ const Home = () => {
             </div>
             <div className="rounded-lg overflow-hidden">
               <img
-                src="/images/building_prism.png"
+                src="/building_prism.png"
                 alt="Hotel Building"
                 className="w-full h-[400px] object-cover"
               />
