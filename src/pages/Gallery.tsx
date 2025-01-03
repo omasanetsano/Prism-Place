@@ -16,7 +16,7 @@ const galleryImages = {
   ],
   bushBar: [
     '/bushbar_2.jpg',
-    '/bushbar_1.jpg',
+    '/bushbar-1.jpg',
     '/bushbar_3.jpg',
     ],
   eventHall: [
